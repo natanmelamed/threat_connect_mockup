@@ -1,0 +1,16 @@
+[
+  {
+    "id": "tc-0001",
+    "description": "tc-0001 description",
+    "name": "scenario_tc-0001",
+    "pack": "threat_connect",
+    "sensor": ["ThreatConnectSensor"]
+  },
+  {
+    "id": "tc-0002",
+    "description": "tc-0002 description",
+    "name": "scenario_tc-0002",
+    "pack": "threat_connect",
+    "sensor": ["ThreatConnectSensor"]
+  }
+]

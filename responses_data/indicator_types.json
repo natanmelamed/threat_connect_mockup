@@ -1,0 +1,99 @@
+{
+  "status": "Success",
+  "data": {
+    "resultCount": 10,
+    "indicatorType": [
+      {
+        "name": "Address",
+        "custom": "false",
+        "parsable": "true",
+        "apiBranch": "addresses",
+        "apiEntity": "address"
+      },
+      {
+        "name": "EmailAddress",
+        "custom": "false",
+        "parsable": "true",
+        "apiBranch": "emailAddresses",
+        "apiEntity": "emailAddress"
+      },
+      {
+        "name": "File",
+        "custom": "false",
+        "parsable": "true",
+        "apiBranch": "files",
+        "apiEntity": "file"
+      },
+      {
+        "name": "Host",
+        "custom": "false",
+        "parsable": "true",
+        "apiBranch": "hosts",
+        "apiEntity": "host"
+      },
+      {
+        "name": "URL",
+        "custom": "false",
+        "parsable": "true",
+        "apiBranch": "urls",
+        "apiEntity": "url"
+      },
+      {
+        "name": "ASN",
+        "custom": "true",
+        "parsable": "true",
+        "apiBranch": "asns",
+        "apiEntity": "asn",
+        "casePreference": "upper",
+        "value1Label": "AS Number",
+        "value1Type": "text",
+        "value2Label": ""
+      },
+      {
+        "name": "CIDR",
+        "custom": "true",
+        "parsable": "true",
+        "apiBranch": "cidrBlocks",
+        "apiEntity": "cidrBlock",
+        "casePreference": "lower",
+        "value1Label": "Block",
+        "value1Type": "text",
+        "value2Label": ""
+      },
+      {
+        "name": "Mutex",
+        "custom": "true",
+        "parsable": "false",
+        "apiBranch": "mutexes",
+        "apiEntity": "mutex",
+        "casePreference": "sensitive",
+        "value1Label": "Mutex",
+        "value1Type": "text",
+        "value2Label": ""
+      },
+      {
+        "name": "Registry Key",
+        "custom": "true",
+        "parsable": "false",
+        "apiBranch": "registryKeys",
+        "apiEntity": "registryKey",
+        "casePreference": "sensitive",
+        "value1Label": "Key Name",
+        "value1Type": "text",
+        "value2Label": "Value Name",
+        "value2Type": "text"
+      },
+      {
+        "name": "User Agent",
+        "custom": "true",
+        "parsable": "false",
+        "apiBranch": "userAgents",
+        "apiEntity": "userAgent",
+        "casePreference": "sensitive",
+        "value1Label": "User Agent String",
+        "value1Type": "text",
+        "value2Label": ""
+      }
+    ]
+  }
+}

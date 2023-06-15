@@ -1,0 +1,6 @@
+{
+  "scenario_mode": false,
+  "current_scenario": "tc-0001",
+  "max_number_of_alerts": 50,
+  "alerts_number_to_create_each_time": 2
+}
